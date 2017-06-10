@@ -1,0 +1,231 @@
+body{
+	font-family: "verdana";
+	font-size: 14px;
+/*	background-color: red;*/
+}
+
+.navbar{
+	border: 1px solid transparent;
+	border-bottom: 3px solid red;
+	border-radius: 0px;
+} 
+
+.navbar-default{
+	margin-bottom: 0px;
+}
+.logo{
+	width: 87%;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #666;
+	font-size: 14px;
+	font-weight:600
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #2979ff;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus{
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus{
+	cursor: default;
+	background-color: transparent;
+	color: #2979ff;
+	
+}
+
+.headerTxt{
+	text-align:center;
+	font-size: 15px;
+	text-decoration: underline;
+/*	font-weight: 600;*/
+	margin: 30px 0;
+}
+
+.homeContent{
+	text-align:center;
+	font-size: 12px;
+	color: #666;
+}
+
+.contentImg{
+	width: 40%;
+    margin: 0px auto;
+    padding: 20px 0px;
+    -webkit-transition: all 0.5s;
+	-webkit-filter: none;
+}
+
+.solutionMain{
+	margin: 30px 0;
+}
+
+.solutionOuter h4, .solutionOuter h6 {
+	line-height: 16px;
+	margin: 25px 0px;
+	color: #666;
+	text-align: center;
+} 
+
+.solutionOuter a {
+	text-decoration: none;
+}
+
+.solutionOuter a .contentImg:hover{
+	-webkit-filter: sepia(100%);
+}
+
+.readBtn{
+	padding: 10px 20px;
+    display: inline-block;
+    color: #fff;
+/*    border: 2px solid #666;*/
+    border-radius: 30px;
+    text-align: center;
+    background-color: #26a4f5;
+}
+
+
+.readBtn:hover{
+    color: #fff;
+/*    border: 2px solid #26a4f5;*/
+    background-color: #666;
+}
+
+.readBtn span{
+	display: block;
+}
+
+.socialIcons{
+	margin-top: 70px;
+	/*margin: 0px auto;*/
+}
+
+
+
+.iconHeading{
+    text-align: center;
+    /*margin: 50px 0;*/
+    font-size: 20px;
+}
+
+.socialRight{
+	width: 100%;
+	height: auto;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: #f8df2f;
+	position: relative;
+}
+
+.innerBoxRight{
+	width: 100%;
+	height: auto;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	background-color: #fff;
+	margin: 5px 0;
+}
+
+
+.customBtn{
+	background-color:#e3e3e2;
+	color:#000000;
+}
+
+.customBtn:hover{
+	background-color:#000000;
+	color:#f8df2f;
+}
+
+/*
+.btn-group > .btn:last-child:not(:first-child), .btn-group > .dropdown-toggle:not(:first-child) {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+	
+}
+*/
+
+.headingTags .btn, .headingTags .btn-group, .headingTags .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle),.headingTags .btn-primary, .headingTags .btn-group > .btn:last-child:not(:first-child), .headingTags .btn-group > .dropdown-toggle:not(:first-child),.headingTags .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle){
+/*
+	border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+*/
+	border-radius: 4px;
+	border-color: #2979ff;
+	color: #fff;
+	background-color: #2979ff;
+/*	margin: 0px 10px;*/
+}
+
+.headingTags .btn:hover, .headingTags .btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle):hover, .headingTags .btn-primary:active:hover, .headingTags .btn-group > .btn:last-child:not(:first-child):hover, .headingTags .btn-group > .dropdown-toggle:not(:first-child):hover, .headingTags .btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle):hover{
+	color: #000;
+    background-color: #cedb1a;
+}
+
+.btn:active, .btn.active{
+	box-shadow: none;
+}
+
+.addEventTable{
+	background-color: #cedb1a;
+	padding: 10px;
+}
+
+.addEventTable table{
+	margin-bottom: 0px;
+}
+
+.addEventTable .form-control{
+	background-color: #000;
+	color:#fff;
+	border: 1px solid #fff;
+}
+
+.addEventTable .tableBtn .btn-default{
+	color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+}
+
+.addEventTable .tableBtn .btn-default:hover{
+	color: #000;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.btn-link{
+	color:#fff;
+	outline: none;
+}
+
+.btn-link:hover, .btn-link:focus{
+	color: #000;
+	outline: none;
+}
+
+.selectedAlert h4{
+	display: inline-block;
+}
+
+.selectedAlert h3{
+	text-align: center;
+	text-decoration: underline;
+}
+/*-----------------------------------------------Media Query----------------------------------*/
+
+@media (min-width : 320px) and (max-width : 500px) {
+	.logo {
+		width: 19%;
+	}
+}
+
+@media (min-width : 501px) and (max-width : 767px) {
+	.logo {
+		width: 19%;
+	}
+}

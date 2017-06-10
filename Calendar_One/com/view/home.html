@@ -1,0 +1,28 @@
+<h5 class="headerTxt">{{ title }}</h5>
+<p class="homeContent">{{ innerTxt }}</p>
+<div class="row solutionMain">
+   <div class="col-md-4 col-sm-4  col-xs-12 solutionOuter">
+      <a href="{{ btnHref }}" target="_blank">
+         <img ng-src="{{ invoiceImg }}" class="img-responsive contentImg" align="absmiddle" />
+         <h4>{{ invoiceTitle }}</h4>
+         <h6>{{ invoiceContent }}</h6>
+         <div class="readBtn">{{ btnTxt }}</div>
+      </a>
+   </div>
+   <div class="col-md-4 col-sm-4  col-xs-12 solutionOuter">
+      <a href="{{ btnHref }}" target="_blank">
+         <img ng-src="{{ leaveImg }}" class="img-responsive contentImg" align="absmiddle" />
+         <h4>{{ leaveTitle }}</h4>
+         <h6>{{ leaveContent }}</h6>
+         <div class="readBtn"><span>{{ btnTxt }}</span></div>
+      </a>
+   </div>
+   <div class="col-md-4 col-sm-4 col-xs-12 solutionOuter">
+      <a href="{{ btnHref }}" target="_blank">
+         <img ng-src="{{ loanImg }}" class="img-responsive contentImg" align="absmiddle" />
+         <h4>{{ loanTitle }}</h4>
+         <h6>{{ loanContent }}</h6>
+         <div class="readBtn">{{ btnTxt }}</div>
+      </a>
+   </div>
+</div>

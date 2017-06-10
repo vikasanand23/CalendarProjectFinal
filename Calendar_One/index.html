@@ -1,0 +1,40 @@
+<!DOCTYPE >
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Calendar Test--Vikas Anand</title>
+      <script src="lib/jquery-2.2.1.min.js"></script>
+      <script src="lib/angular.js"></script>
+      <script src="lib/angular-route.js"></script>
+      <script src="com/module/app.js"></script>
+      <script src="lib/bootstrap.js"></script>
+      <script src="com/controllers/navController.js"></script>
+      <script src="com/controllers/homeController.js"></script>
+      <script src="com/controllers/calendarController.js"></script>
+      <script src="com/directive/calendarDirective.js"></script>
+      <script src="com/module/calendar-tpls.js"></script>
+      <script src="lib/moment@2.17.1.js"></script>
+      <script src="lib/ui-bootstrap-tpls.js"></script>
+      <script src="lib/rrule@2.2.0.js"></script>
+      <script src="lib/angular-bootstrap-colorpicker@3.0.31.js"></script>
+      <script src="lib/angular-bootstrap-calendar@0.29.1.js"></script>
+      <script src="com/service/helpers.js"></script>
+      <link href="css/bootstrap.css" rel="stylesheet" />
+      <link href="css/custom.css" rel="stylesheet" />
+      <link href="css/calendar.min.css" rel="stylesheet" />
+      <link href="css/angular-bootstrap-calendar.min.css" rel="stylesheet">
+   </head>
+   <body ng-app="app">
+      <div class="container-fluid">
+         <div class="row" ng-controller= "navController" ng-include="'com/view/navTop.html'"></div>
+      </div>
+      <div class="container">
+         <div class="row">
+            <div class="col-md-12">
+               <!-- Middle Content of all pages -->
+               <ng-view></ng-view>
+            </div>
+         </div>
+      </div>
+   </body>
+</html>
